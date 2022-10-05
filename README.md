@@ -23,7 +23,7 @@ Secrets of school. Secrets of neighbors or gossip.
 
 
 <!-- FUNCTIONALITIES -->
-
+## Functionalities
 
 - Register
 - Sign in
