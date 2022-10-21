@@ -28,7 +28,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 // Database, Schemas, Encryption
-mongoose.connect("mongodb://localhost:27017/userDB");
+mongoose.connect(process.env.MONGODB_URL);
 
 const UserSchema = new mongoose.Schema({
   email: String,
